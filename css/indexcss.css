@@ -1,0 +1,23 @@
+header, footer {
+background-color: blue;
+color: white;
+padding: 1rem;
+border: 1rem solid
+}
+
+header, main, footer {
+    max-width: 750px;
+    padding: 1rem;
+    font-family:'Source Serif Pro', serif;
+}
+
+header img {
+    float: right;
+    width: 200px;
+    height: auto;
+    margin-top: 40px;
+}
+
+a {
+    color: black;
+}
