@@ -1,0 +1,14 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main, section, header, footer{
+    color: darkcyan;
+    background-color:beige;
+    padding: 1em;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}

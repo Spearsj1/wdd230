@@ -12,12 +12,14 @@ header, main, footer {
 }
 
 header img {
-    float: right;
     width: 200px;
     height: auto;
-    margin-top: 40px;
 }
 
 a {
     color: black;
+}
+
+li, p {
+    font-family: 'Martel', serif;
 }
