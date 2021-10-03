@@ -1,0 +1,39 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, li {
+    font-family: 'Libre Baskerville', serif;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    background-color:dimgray;
+}
+
+nav a {
+    display: block;
+    text-align: centered;
+    padding: 1rem;
+    margin: .50rem;
+    color: black;
+    background-color:deepskyblue;
+}
+
+nav a:hover {
+    color:lightgreen;
+    background-color:darkorchid;
+}
+
+body, h1, p {
+    padding: 2rem;
+    margin:2rem;
+}
+
+body {
+    color:black;
+    background-color: lightblue;
+}
