@@ -1,0 +1,11 @@
+@media (min-width: 35em) {
+
+    header img {
+        width: 300px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}

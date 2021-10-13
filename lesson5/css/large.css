@@ -1,0 +1,31 @@
+@media (min-width: 60em) {
+
+    header img {
+        width: 300px;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 2rem;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+    section {
+        max-width: 75%;
+        margin-left: 12.5rem;
+    }
+}
