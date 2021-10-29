@@ -1,0 +1,16 @@
+body {
+    padding-left: 300px;
+}
+
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+
+picture img {
+    display: grid;
+    grid-template-columns: 400px;
+    width: 400px;
+    height: 300px;
+    filter: blur(0.2em);
+    transition: filter 0.5s;
+}
