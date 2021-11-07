@@ -1,0 +1,19 @@
+@media (min-width: 30px) {
+
+    header img {
+        width: 100rem;
+        height: auto;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .artp {
+        font-size: large;
+    }
+    main section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
