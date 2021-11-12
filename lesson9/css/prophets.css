@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+section {
+    background-color: lightblue;
+    max-width: 500px;
+    margin-left: 5px;
+    border: 1px solid blueviolet;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 300px;
+}
+
+@media (min-width: 450px) {
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+section {
+    max-width: 350px;
+    margin-left: 50px;
+}
