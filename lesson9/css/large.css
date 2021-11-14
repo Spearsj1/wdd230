@@ -1,4 +1,4 @@
-@media (min-width: 60px) {
+@media (min-width: 1200px) {
 
     header img {
         width: 300px;
@@ -6,7 +6,7 @@
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2px;
     }
 
     nav button {
@@ -25,7 +25,7 @@
         justify-content: center;
     }
 
-    main section {
+    .hover {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

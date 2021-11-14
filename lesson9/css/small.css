@@ -69,19 +69,23 @@ h1, h2 {
 p, li {
     font-family: 'Libre Baskerville', serif;
 }
-main h3 {
-padding-left: 200px;
+
+.tname {
+    padding-left: 200px;
 }
 
-.hover {
-display: grid;
-grid-template-columns: 1fr;
-padding-left: 200px;
+main section {
+    color: #61a0a8;
+    background-color: #004346;
+    padding: 1rem;
+    font-size: 2rem;
 }
+
 .galimg {
     width: 500px;
     height: auto;
 }
+
 .summary {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -148,6 +152,15 @@ footer {
     color: #172A3A;
     padding: 1rem;
     text-align: center;
+}
+
+form fieldset {
+    display: block;
+}
+
+.label {
+    display: contents;
+    display: inline-flex;
 }
 
 .clearfix:after {
