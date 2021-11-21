@@ -1,0 +1,16 @@
+@media (min-width: 500px) {
+
+    header img {
+        width: 100px;
+        height: auto;
+    }
+
+    .artp {
+        font-size: large;
+    }
+    
+    .hover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

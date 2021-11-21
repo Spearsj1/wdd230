@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="John Spears">
+            <title>My Weather Services</title>
+            <meta name="description" content="The main page for my weather site for my WDD230 course assignment.">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link rel="shortcut icon" href="favicon.ico">
+        </head>
+        <body>
+            <header>
+                <img src="images/1679551_christmas_cold_ice_snow_snowflake_icon.jpg" alt="snowflake logo">
+                <section class="headText">
+                    <h1>My Weather Services</h1>
+                    <h2>Making Weather Accessable.</h2>
+                </section>
+            </header>
+            <section class="fri">
+                <h3>Saturday = Preston Pancakes in the Park! 9:00 A.M. Saturday at the city park pavilion.</h3>
+            </section>
+            <nav class="clearfix">
+                <button onclick="menuToggle()" class="button">&#9776;</button>
+                <ul id="mainNav" class="hide">
+                    <li><a href="placeholder">Home</a></li>
+                    <li><a href="placeholder">Preston</a></li>
+                    <li><a href="placeholder">Soda Springs</a></li>
+                    <li><a href="placeholder">Fish Haven</a></li>
+                    <li><a href="placeholder">Storm Center</a></li>
+                    <li><a href="placeholder">Gallery</a></li>
+                </ul>
+            </nav>
+            <main>
+                <section class="main">
+                    <h3>Preston</h3>
+                    <div class="sum">
+                        <img src="images/pexelsfransvanheerden624015web.jpg" alt="Snowy building with aurora borealis" class="heroImg">
+                        <section class="summary">
+                            <h4>Weather Summary</h4>
+                            <span>Currently: <span class="column" id="curw"></span></span>
+                            <span>Current Tempurature: <span id="temp" class="column"></span><span></span>
+                            <span>WindChill: <span onload="windChill()" id="wind" class="column"></span></span>
+                            <span>Humidity: <span id="hum" class="column"></span></span>
+                            <span>Wind Speed: <span id="speed" class="column">5 mph</span></span>
+                        </section>
+                        <p>Data from OpenWeatherMap.org</p>
+                    </div>
+                </section>
+                <section class="main">
+                    <h3 class="forecast">5 Day Forecast</h3>
+                    <section class="flextab">
+                        <div>
+                            <h4 class="flexmain">Wed</h4>
+                            <p class="flexcon">89°F</p>
+                        </div>
+                        <div>
+                            <h4 class="flexmain">Thu</h4>
+                            <p class="flexcon">87°F</p>
+                        </div>
+                        <div>
+                            <h4 class="flexmain">Fri</h4>
+                            <p class="flexcon">78°F</p>
+                        </div>
+                        <div>
+                            <h4 class="flexmain">Sat</h4>
+                            <p class="flexcon">75°F</p>
+                        </div>
+                        <div>
+                            <h4 class="flexmain">Sun</h4>
+                            <p class="flexcon">72°F</p>
+                        </div>
+                    </section>
+                </section>
+                <section class="main">
+                    <div class="artsect">
+                        <img src="images/pexelscinimodphoto1188214web.jpg" alt="Picture of a park" class="artimg">
+                        <h4>By Placeholder</h4>
+                        <p class="artp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aspernatur distinctio totam! Vitae dicta, odit pariatur, ducimus vero quo eaque aspernatur, id soluta corrupti molestiae facere nisi. Deserunt, pariatur voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat, cupiditate iste deserunt perspiciatis id ipsum laudantium doloremque, provident est iusto? A reiciendis sit dolorem consequatur aliquam dicta, ipsum repudiandae Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsam assumenda possimus hic, reprehenderit vitae ducimus qui autem placeat atque? Dolor odit aliquid a voluptatum dolores vero nam error omnis Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cumque dignissimos cum obcaecati temporibus quidem placeat. Ipsam optio quo cum qui, iure consequuntur tempore beatae odit consectetur maxime natus! Amet.</p>
+                        
+                    </div>
+                </section>
+                <section class="main">
+                    <div class="contact">
+                        <img src="images/TheWeatherPictureEdited.jpg" alt="Site Map" class="conimg">
+                        <h4>The Weather Site</h4>
+                        <p>30 N 1st E Preston, ID 83268</p>
+                        <p>(999)999-9999</p>
+                        <p>theweathersite@tws.com</p>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; <span id="year"></span> | John Spears | <a href="https://spearsj1.github.io/wdd230/lesson6/attributions">Attributions</a> | <a href='https://OpenWeatherMap.org'>OpenWeatherMap</a> | Last Edited: <span class="modify"></span></p>
+            </footer>
+            <script src="js/preston.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="js/prestonapi.js"></script>
+        </body>
+    </html>
