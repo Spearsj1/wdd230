@@ -66,8 +66,57 @@ p, li {
     font-family: 'Libre Baskerville', serif;
 }
 
+.tnametwo {
+    padding-left: 100px;
+}
+
 .tname {
     padding-left: 200px;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+.form {
+    padding: 0 5%;
+}
+
+.gene, .range {
+    display: block;
+    padding: 10px;
+}
+
+.radio {
+    display: block;
+    padding: 5px;
+} 
+
+.gene input, .range input, .gene select, .range select {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.radio input, .radio select {
+    display: block;
+}
+
+.label {
+    display: inline;
+}
+
+.sub {
+    margin: 10px;
+    width: 10%;
+}
+
+.gene input:required {
+    border-left: red solid 10px;
+}
+
+.gene input:required:valid {
+    border-left: green solid 10px;
 }
 
 main section {
