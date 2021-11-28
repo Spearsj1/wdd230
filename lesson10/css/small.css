@@ -1,5 +1,6 @@
 header {
     color: #61a0a8;
+    background-color: #004346;
     display: flex;
     padding: 1rem;
 }
@@ -12,11 +13,6 @@ header {
 
 header h1{
     font-size: 2rem;
-}
-
-header img {
-    width: 10rem;
-    height: auto;
 }
 
 .fri {
@@ -89,6 +85,7 @@ main section {
 .summary {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .summary h4{
@@ -145,6 +142,11 @@ main section {
 .contact {
     background-color: #75DDDD;
     color: #172A3A;
+}
+
+.meimg {
+    max-width: 125px;
+    max-height: auto;
 }
 
 footer {

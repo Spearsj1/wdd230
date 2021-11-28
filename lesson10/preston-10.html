@@ -17,7 +17,11 @@
         </head>
         <body>
             <header>
-                <img src="images/1679551_christmas_cold_ice_snow_snowflake_icon.jpg" alt="snowflake logo">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/snowflakelarge.png">
+                    <source media="(min-width: 500px) and (max-width: 799px)" srcset="images/snowflakemedium.png">
+                    <img src="images/snowflakesmall.png" alt="snowflake logo">
+                </picture>
                 <section class="headText">
                     <h1>My Weather Services</h1>
                     <h2>Making Weather Accessable.</h2>
@@ -39,13 +43,17 @@
             </nav>
             <main>
                 <section class="main">
-                    <h3>Preston</h3>
+                    <h3 class="townname">Preston</h3>
                     <div class="sum">
-                        <img src="images/pexelsfransvanheerden624015web.jpg" alt="Snowy building with aurora borealis" class="heroImg">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="images/auroraborealislarge.jpg">
+                            <source media="(min-width: 500px) and (max-width: 1199px)" srcset="images/auroraborealismedium.jpg">
+                            <img src="images/auroraborealissmall.jpg" alt="Snowy building with aurora borealis">
+                        </picture>
                         <section class="summary">
                             <h4>Weather Summary</h4>
                             <span>Currently: <span class="column" id="curw"></span></span>
-                            <span>Current Tempurature: <span id="temp" class="column"></span><span></span>
+                            <span>Current Tempurature: <span id="temp" class="column"></span></span>
                             <span>WindChill: <span onload="windChill()" id="wind" class="column"></span></span>
                             <span>Humidity: <span id="hum" class="column"></span></span>
                             <span>Wind Speed: <span id="speed" class="column">5 mph</span></span>
@@ -80,7 +88,11 @@
                 </section>
                 <section class="main">
                     <div class="artsect">
-                        <img src="images/pexelscinimodphoto1188214web.jpg" alt="Picture of a park" class="artimg">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="images/autumnlarge.jpg">
+                            <source media="(min-width: 500px) and (max-width: 1199px)" srcset="images/autumnmedium.jpg">
+                            <img src="images/autumnsmall.jpg" alt="Picture of a park" class="artimg">
+                        </picture>
                         <h4>By Placeholder</h4>
                         <p class="artp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aspernatur distinctio totam! Vitae dicta, odit pariatur, ducimus vero quo eaque aspernatur, id soluta corrupti molestiae facere nisi. Deserunt, pariatur voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat, cupiditate iste deserunt perspiciatis id ipsum laudantium doloremque, provident est iusto? A reiciendis sit dolorem consequatur aliquam dicta, ipsum repudiandae Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsam assumenda possimus hic, reprehenderit vitae ducimus qui autem placeat atque? Dolor odit aliquid a voluptatum dolores vero nam error omnis Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cumque dignissimos cum obcaecati temporibus quidem placeat. Ipsam optio quo cum qui, iure consequuntur tempore beatae odit consectetur maxime natus! Amet.</p>
                         
@@ -88,11 +100,18 @@
                 </section>
                 <section class="main">
                     <div class="contact">
-                        <img src="images/TheWeatherPictureEdited.jpg" alt="Site Map" class="conimg">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="images/contactlarge.jpg">
+                            <source media="(min-width: 500px) and (max-width: 1199px)" srcset="images/contactmedium.jpg">
+                            <img src="images/contactsmall.jpg" alt="Site Map" class="conimg">
+                        </picture>
                         <h4>The Weather Site</h4>
                         <p>30 N 1st E Preston, ID 83268</p>
                         <p>(999)999-9999</p>
                         <p>theweathersite@tws.com</p>
+                        <img src="images/facebook.png" alt="Facebook Icon" class="meimg">
+                        <img src="images/twitter.png" alt="Twitter Icon" class="meimg">
+                        <img src="images/youtube.png" alt="Youtube Icon" class="meimg">
                     </div>
                 </section>
             </main>

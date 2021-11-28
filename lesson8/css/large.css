@@ -1,4 +1,4 @@
-@media (min-width: 60px) {
+@media (min-width: 1200px) {
 
     header img {
         width: 300px;
@@ -23,6 +23,11 @@
 
     nav ul {
         justify-content: center;
+    }
+
+    .tname {
+        padding-left: 750px;
+        font-size: xx-large;
     }
 
     main section {

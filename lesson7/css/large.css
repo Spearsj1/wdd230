@@ -1,9 +1,4 @@
-@media (min-width: 60px) {
-
-    header img {
-        width: 300px;
-        height: auto;
-    }
+@media (min-width: 1700px) {
 
     h2 {
         font-size: 2rem;
@@ -26,6 +21,11 @@
     }
 
     main section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .galtab {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }

@@ -1,14 +1,21 @@
-main {
-    display: grid;
-    grid-template-columns: 1fr;
+main{
+    list-style-type: none;
 }
 
 main, section, header, footer{
-    color: darkcyan;
+    color: rgba(79, 27, 223, 0.863);
     background-color:beige;
     padding: 1em;
 }
 
 body {
     font-family: 'PT Serif', serif;
+}
+
+img {
+    display: block;
+}
+
+p, a {
+    font-size: large;
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="John Spears">
+            <title>My Weather Services</title>
+            <meta name="description" content="The gallery page for my weather site for my WDD230 course assignment.">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link rel="shortcut icon" href="favicon.ico">
+        </head>
+        <body>
+            <header>
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/snowflakelarge.png">
+                    <source media="(min-width: 500px) and (max-width: 799px)" srcset="images/snowflakemedium.png">
+                    <img src="images/snowflakesmall.png" alt="snowflake logo">
+                </picture>
+                <section class="headText">
+                    <h1>My Weather Services</h1>
+                    <h2>Making Weather Accessable.</h2>
+                </section>
+            </header>
+            <section class="fri">
+                <h3>Saturday = Preston Pancakes in the Park! 9:00 A.M. Saturday at the city park pavilion.</h3>
+            </section>
+            <nav class="clearfix">
+                <button onclick="menuToggle()" class="button">&#9776;</button>
+                <ul id="mainNav" class="hide">
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/index.html">Home</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/preston.html">Preston</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/sodasprings.html">Soda Springs</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/fishhaven.html">Fish Haven</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <main>
+                <h3>Weather Gallery</h3>
+                <div class="galtab">
+                    <section class="hover">
+                        <img src="images/pexels-david-riaño-cortés-975771-edit.jpg" loading="lazy" alt="Rainey Forest" class="galimg">
+                        <h4>A Rainey Forest</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-enric-cruz-lópez-6272360-edit.jpg" loading="lazy" alt="Rainey Town" class="galimg">
+                        <h4>A Rainey Town</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-rodrigo-souza-2531709-edit.jpg" loading="lazy" alt="Lightning Strike" class="galimg">
+                        <h4>A Lightning Strike</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-eberhard-grossgasteiger-443446-edit.jpg" loading="lazy" alt="Lake with Snowy Mountains" class="galimg">
+                        <h4>Lake with Snowy Mountains</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-radu-andrei-razvan-773594-edit.jpg" loading="lazy" alt="Snowy Forest" class="galimg">
+                        <h4>Snowy Forest</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-riciardus-300857-edit.jpg" loading="lazy" alt="Ice Lake" class="galimg">
+                        <h4>Ice Lake</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-artem-saranin-1496372-edit.jpg" loading="lazy" alt="Sunny Street" class="galimg">
+                        <h4>Sunny Street</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-jonathan-petersson-1101146-edit.jpg" loading="lazy" alt="Sunny Bridge" class="galimg">
+                        <h4>Sunny Bridge</h4>
+                    </section>
+                    <section class="hover">
+                        <img src="images/pexels-enric-cruz-lópez-9989496-edit.jpg" loading="lazy" alt="Sunny Park" class="galimg">
+                        <h4>Sunny Park</h4>
+                    </section>
+                </div>
+            </main>
+            <footer>
+                <p>&copy; <span id="year"></span> | John Spears | <a href="https://spearsj1.github.io/wdd230/lesson11/attributions">Attributions</a> | Last Edited: <span class="modify"></span></p>
+            </footer>
+            <script src="js/load.js"></script>
+            <script src="js/preston.js"></script>
+        </body>
+    </html>

@@ -1,4 +1,4 @@
-@media (min-width: 30px) {
+@media (min-width: 500px) {
 
     header img {
         width: 100rem;
@@ -7,6 +7,11 @@
 
     h2 {
         font-size: 2rem;
+    }
+
+    .tname {
+        padding-left: 400px;
+        font-size: xx-large;
     }
 
     .artp {

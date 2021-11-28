@@ -1,8 +1,7 @@
 @media (min-width: 500px) {
 
-    header img {
-        width: 100px;
-        height: auto;
+    .townname {
+        margin-left: 100px;
     }
 
     .artp {

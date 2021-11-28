@@ -1,0 +1,57 @@
+@media (min-width: 1200px) {
+
+    nav button {
+        display: none;
+    }
+
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 2rem;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .hover {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .hover:hover {
+        box-shadow: 0 0 50px black;
+    }
+
+    .main {
+        max-width: 75%;
+        margin-left: 12.5rem;
+    }
+
+    .sum {
+        position: relative;
+    }
+    
+    .summary {
+        position: absolute;
+    }
+    
+    .summary {
+        top: 20px;
+        left: 110px;
+    }
+}
+
+.artimg {
+    float: right;
+}
+
+.conimg {
+    float: left;
+    padding: 1rem;
+}
+.artp {
+    font-size: xx-large;
+}

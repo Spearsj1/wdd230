@@ -1,7 +1,7 @@
-@media (min-width: 30em) {
+@media (min-width: 500px) {
 
     header img {
-        width: 100rem;
+        width: 300px;
         height: auto;
     }
 

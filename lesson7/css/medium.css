@@ -1,9 +1,4 @@
-@media (min-width: 30px) {
-
-    header img {
-        width: 100rem;
-        height: auto;
-    }
+@media (min-width: 500px) {
 
     h2 {
         font-size: 2rem;
@@ -12,7 +7,17 @@
     .artp {
         font-size: large;
     }
+
     .hover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hover:hover {
+        box-shadow: 0 0 50px black;
+    }
+
+    .galtab {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }

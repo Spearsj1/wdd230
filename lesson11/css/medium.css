@@ -1,0 +1,15 @@
+@media (min-width: 500px) {
+
+    .townname {
+        margin-left: 100px;
+    }
+
+    .artp {
+        font-size: large;
+    }
+    
+    .hover {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

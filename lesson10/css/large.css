@@ -1,14 +1,5 @@
 @media (min-width: 1200px) {
 
-    header img {
-        width: 300px;
-        height: auto;
-    }
-
-    h2 {
-        font-size: 2px;
-    }
-
     nav button {
         display: none;
     }
@@ -39,14 +30,6 @@
         margin-left: 12.5rem;
     }
 
-    .heroImg {
-        width: 70rem;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
     .sum {
         position: relative;
     }
@@ -62,14 +45,10 @@
 }
 
 .artimg {
-    width: 30rem;
-    height: auto;
     float: right;
 }
 
 .conimg {
-    width: 25rem;
-    height: auto;
     float: left;
     padding: 1rem;
 }

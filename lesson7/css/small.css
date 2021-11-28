@@ -14,11 +14,6 @@ header h1{
     font-size: 2rem;
 }
 
-header img {
-    width: 10rem;
-    height: auto;
-}
-
 .fri {
     text-align: center;
     color: #61a0a8;
@@ -69,6 +64,7 @@ h1, h2 {
 p, li {
     font-family: 'Libre Baskerville', serif;
 }
+
 main h3 {
 padding-left: 200px;
 }
@@ -76,12 +72,13 @@ padding-left: 200px;
 .hover {
 display: grid;
 grid-template-columns: 1fr;
-padding-left: 200px;
 }
+
 .galimg {
     width: 500px;
     height: auto;
 }
+
 .summary {
     display: grid;
     grid-template-columns: 1fr 1fr;

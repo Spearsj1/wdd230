@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+    <html lang="en-us">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="author" content="John Spears">
+            <title>My Weather Services</title>
+            <meta name="description" content="The main page for my weather site for my WDD230 course assignment.">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+            <link rel="shortcut icon" href="favicon.ico">
+        </head>
+        <body>
+            <header>
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/snowflakelarge.png">
+                    <source media="(min-width: 500px) and (max-width: 799px)" srcset="images/snowflakemedium.png">
+                    <img src="images/snowflakesmall.png" alt="snowflake logo">
+                </picture>
+                <section class="headText">
+                    <h1>My Weather Services</h1>
+                    <h2>Making Weather Accessable.</h2>
+                </section>
+            </header>
+            <section class="fri">
+                <h3>Saturday = Preston Pancakes in the Park! 9:00 A.M. Saturday at the city park pavilion.</h3>
+            </section>
+            <nav class="clearfix">
+                <button onclick="menuToggle()" class="button">&#9776;</button>
+                <ul id="mainNav" class="hide">
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/index.html">Home</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/preston.html">Preston</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/sodasprings.html">Soda Springs</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/fishhaven.html">Fish Haven</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+                    <li><a href="https://spearsj1.github.io/wdd230/lesson11/gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <main class="indexgrid">
+                <section class="main">
+                    <h3>Preston</h3>
+                    <div class="sum">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="images/auroraborealislarge.jpg">
+                            <source media="(min-width: 500px) and (max-width: 1199px)" srcset="images/auroraborealismedium.jpg">
+                            <img src="images/auroraborealissmall.jpg" alt="Snowy building with aurora borealis">
+                        </picture>
+                    </div>
+                </section>
+                <section class="main">
+                    <h3>Town Overview</h3>
+                    <div class="jason"></div>
+                </section>
+                <section class="main">
+                    <div class="artsect">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="images/autumnlarge.jpg">
+                            <source media="(min-width: 500px) and (max-width: 1199px)" srcset="images/autumnmedium.jpg">
+                            <img src="images/autumnsmall.jpg" alt="Picture of a park" class="artimg">
+                        </picture>
+                        <h4>By Placeholder</h4>
+                        <p class="artp">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores aspernatur distinctio totam! Vitae dicta, odit pariatur, ducimus vero quo eaque aspernatur, id soluta corrupti molestiae facere nisi. Deserunt, pariatur voluptas Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat, cupiditate iste deserunt perspiciatis id ipsum laudantium doloremque, provident est iusto? A reiciendis sit dolorem consequatur aliquam dicta, ipsum repudiandae Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus ipsam assumenda possimus hic, reprehenderit vitae ducimus qui autem placeat atque? Dolor odit aliquid a voluptatum dolores vero nam error omnis Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cumque dignissimos cum obcaecati temporibus quidem placeat. Ipsam optio quo cum qui, iure consequuntur tempore beatae odit consectetur maxime natus! Amet.</p>   
+                    </div>
+                </section>
+                <section class="main">
+                    <div class="contact">
+                        <picture>
+                            <source media="(min-width: 1200px)" srcset="images/contactlarge.jpg">
+                            <source media="(min-width: 500px) and (max-width: 1199px)" srcset="images/contactmedium.jpg">
+                            <img src="images/contactsmall.jpg" alt="Site Map" class="conimg">
+                        </picture>
+                        <h4>The Weather Site</h4>
+                        <p>30 N 1st E Preston, ID 83268</p>
+                        <p>(999)999-9999</p>
+                        <p>theweathersite@tws.com</p>
+                    </div>
+                </section>
+            </main>
+            <footer>
+                <p>&copy; <span id="year"></span> | John Spears | <a href="https://spearsj1.github.io/wdd230/lesson11/attributions">Attributions</a> | Last Edited: <span class="modify"></span></p>
+            </footer>
+            <script src="js/preston.js"></script>
+            <script src="js/jason.js"></script>
+        </body>
+    </html>

@@ -37,9 +37,9 @@
                     <li><a href="placeholder">Gallery</a></li>
                 </ul>
             </nav>
-            <main>
+            <main class="form">
                 <h3 class="tname">Storm / Weather Report</h3>
-                <formmethod="get" action="thanks.html">
+                <form method="get" action="thanks.html">
                     <fieldset>
                         <label class="gene">Full Name* <input type="text" name="fullname" required></label>
                         <label class="gene">Email <input type="email" name="email" placeholder="example@example.com"></label>
@@ -77,14 +77,14 @@
                                 <option value="soda">Soda Springs</option>
                             </select>
                         </label>
-                        <div>Are You in Danger? </div>
-                        <label><input type="radio" name="yes" value="yes">Yes</label>
-                        <label><input type="radio" name="no" value="no">No</label>
-                        <label><input type="radio" name="maybe" value="maybe">Maybe</label>
-                        <label>Comments <textarea name="comments"></textarea></label>
+                        <div class="radio">Are You in Danger? </div>
+                        <label class="radio"><input type="radio" name="yes" value="yes">Yes</label>
+                        <label class="radio"><input type="radio" name="no" value="no">No</label>
+                        <label class="radio"><input type="radio" name="maybe" value="maybe">Maybe</label>
+                        <label class="gene">Comments <textarea name="comments"></textarea></label>
                     </fieldset>
                     <input type="submit" value="Report" class="sub">
-                </formmethod>
+                </form>
             </main>
             <footer>
                 <p>&copy; <span id="year"></span> | John Spears | <a href="https://spearsj1.github.io/wdd230/lesson8/attributions">Attributions</a> | Last Edited: <span class="modify"></span></p>

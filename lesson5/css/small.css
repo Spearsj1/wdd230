@@ -15,7 +15,7 @@ header h1{
 }
 
 header img {
-    width: 10rem;
+    width: 100px;
     height: auto;
 }
 
@@ -80,6 +80,7 @@ main section {
 .summary {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 
 .summary h4{
